@@ -1,10 +1,11 @@
-🐙() {
+octo() {
 echo
-quoteme_pretty
+#quoteme_pretty
+zenme
 cat<<"EOF"
 
+           \
             \
-             \
                 _,--._
               ,'      `.
       |\     / ,-.  ,-. \     /|

@@ -21,3 +21,5 @@ fi
 # global node modules
 
 export PATH="/usr/local/Cellar/node/8.1.0_1/bin:$PATH"
+
+zenme
