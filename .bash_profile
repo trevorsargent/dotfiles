@@ -4,7 +4,7 @@ if which rbenv > /dev/null;
 fi;
 
 # Load autojump
-[[ -s `brew --prefix`/etc/autojump.bash ]] && . `brew --prefix`/etc/autojump.bash
+ [[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
 
 # Load dotfiles
 . ~/.dotfiles/init.sh
@@ -17,3 +17,7 @@ export EDITOR="vim"
 if [ -f $(brew --prefix)/share/bash-completion/bash_completion ]; then
   . $(brew --prefix)/share/bash-completion/bash_completion
 fi
+
+# global node modules
+
+export PATH="/usr/local/Cellar/node/8.1.0_1/bin:$PATH"
