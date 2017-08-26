@@ -9,6 +9,9 @@ fi;
 # Load dotfiles
 . ~/.dotfiles/init.sh
 
+#load aliases
+. ~/.dotfiles/aliases.sh
+
 # ENV variables
 export EDITOR="vim"
 
