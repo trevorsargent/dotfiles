@@ -1,7 +1,0 @@
-alias weather="ansiweather -l 5746545"
-alias backtalk="echo fuck you"
-alias "jj"="bundle exec jekyll serve -w"
-alias "jjb"="bundle exec jekyll build"
-alias be="bundle exec"
-alias zoom="speedtest-cli"
-alias mc="java -Xmx1024M -Xms1024M -jar minecraft_server.1.12.1.jar nogui"

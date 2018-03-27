@@ -9,9 +9,6 @@ fi;
 # Load dotfiles
 . ~/.dotfiles/init.sh
 
-#load aliases
-. ~/.dotfiles/aliases.sh
-
 # ENV variables
 export EDITOR="vim"
 
@@ -23,6 +20,6 @@ fi
 
 # global node modules
 
-export PATH="/usr/local/Cellar/node/8.1.0_1/bin:$PATH"
+export PATH="/usr/local/Cellar/node/9.8.0/bin:$PATH"
 
 zenme
