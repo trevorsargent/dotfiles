@@ -26,5 +26,5 @@ alias backtalk="echo fuck you"
 alias zoom="speedtest-cli"
 alias mc="java -Xmx1024M -Xms1024M -jar minecraft_server.1.12.1.jar nogui"
 
-alias "jj"="bundle exec jekyll serve -w --incremental"
+alias "jj"="bundle exec jekyll serve -w"
 alias "jjb"="bundle exec jekyll build"
