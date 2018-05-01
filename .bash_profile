@@ -19,7 +19,7 @@ if [ -f $(brew --prefix)/share/bash-completion/bash_completion ]; then
 fi
 
 # global node modules
-
-export PATH="/usr/local/Cellar/node/9.8.0/bin:$PATH"
-
+v=$(node -v)
+export PATH="/usr/local/Cellar/node/9.11.1/bin:$PATH"
+export PATH="$HOME/.npm-packages/bin:$PATH"
 zenme
