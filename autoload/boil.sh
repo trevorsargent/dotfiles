@@ -7,5 +7,6 @@ boil(){
 	git checkout -b master
 	git branch -D $2
 	hub create
+  npm init -y
 	git push -u origin master
 }
