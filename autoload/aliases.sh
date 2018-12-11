@@ -28,3 +28,6 @@ alias mc="java -Xmx1024M -Xms1024M -jar minecraft_server.1.12.1.jar nogui"
 
 alias "jj"="bundle exec jekyll serve -w"
 alias "jjb"="bundle exec jekyll build"
+
+alias "loop"="while [ $? -ne 0 ]; do !!; done"
+alias "mine"="sudo chown -R $(whoami) ."
