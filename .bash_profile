@@ -26,4 +26,5 @@ fi
 v=$(node -v)
 export PATH="/usr/local/Cellar/node/9.11.1/bin:$PATH"
 export PATH="$HOME/.npm-packages/bin:$PATH"
+export PATH="/usr/local:$PATH"
 zenme
