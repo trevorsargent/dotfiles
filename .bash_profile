@@ -27,4 +27,5 @@ v=$(node -v)
 export PATH="/usr/local/Cellar/node/9.11.1/bin:$PATH"
 export PATH="$HOME/.npm-packages/bin:$PATH"
 export PATH="/usr/local:$PATH"
+export HUBOT_SLACK_TOKEN="xoxb-44498951012-968526033444-odQjSOr9uqekL1rZLc01qXrE"
 zenme
